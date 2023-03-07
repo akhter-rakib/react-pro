@@ -2,6 +2,7 @@ import './App.css';
 import Greet from './component/Greet';
 import Person from './component/Person';
 import PersonList from './component/PersonList';
+import Status from './component/Status';
 
 function App() {
   const personName = {
@@ -9,7 +10,7 @@ function App() {
     lastName: 'Rakib'
   }
 
-  const nameList = [
+  const nameLists = [
     {
       firstName: 'rakib',
       lastName: 'hasan'
@@ -27,7 +28,8 @@ function App() {
     <div className="App">
       <Greet name='Rakib' messageCount={10} isLoggedIn={true} />
       <Person name={personName} />
-      <PersonList nameList={nameList}/>
+      <PersonList nameList={nameLists}/>
+      <Status status='Loading'/>
     </div>
   );
 }
