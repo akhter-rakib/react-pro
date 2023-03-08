@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './component/Button';
 import Greet from './component/Greet';
 import Heading from './component/Heading';
 import Oscar from './component/Oscar';
@@ -37,6 +38,10 @@ function App() {
         <Heading>Oscar Goes to Rakib ! </Heading>
       </Oscar>
       <Greet name='Hamid' isLoggedIn={true}></Greet>
+      <Button handleClick={(event, id) => {
+        console.log('Button Clicked....', event, id)
+        alert('test' + id)
+      }} />
     </div>
   );
 }
