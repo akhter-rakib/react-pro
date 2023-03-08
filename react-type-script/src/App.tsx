@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './component/Button';
+import Container from './component/Container';
 import Greet from './component/Greet';
 import Heading from './component/Heading';
 import Input from './component/Input';
@@ -44,6 +45,7 @@ function App() {
         alert('test' + id)
       }} />
       <Input  value='' handleChange={event => console.log(event)} />
+      <Container style={{border:'1px solid black', padding: '1rem'}}/>
     </div>
   );
 }
