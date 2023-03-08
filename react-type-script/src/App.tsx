@@ -2,6 +2,7 @@ import './App.css';
 import Button from './component/Button';
 import Greet from './component/Greet';
 import Heading from './component/Heading';
+import Input from './component/Input';
 import Oscar from './component/Oscar';
 import Person from './component/Person';
 import PersonList from './component/PersonList';
@@ -42,6 +43,7 @@ function App() {
         console.log('Button Clicked....', event, id)
         alert('test' + id)
       }} />
+      <Input  value='' handleChange={event => console.log(event)} />
     </div>
   );
 }
