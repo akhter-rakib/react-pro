@@ -1,13 +1,8 @@
 import React from "react";
+import { PersonProps } from "./CommonType";
 
-type personProps = {
-    name: {
-        firstName: string
-        lastName: string
-    }
-}
 
-const Person = (props: personProps) => {
+const Person = (props: PersonProps) => {
     return (
         <p>First Name : {props.name.firstName} and Last Name {props.name.lastName}</p>
     )

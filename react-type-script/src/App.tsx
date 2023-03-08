@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <Greet name='Rakib' messageCount={10} isLoggedIn={true} />
       <Person name={personName} />
-      <PersonList nameList={nameLists} />
+      <PersonList names={nameLists} />
       <Status status='Loading' />
       <Heading>Place Holder....</Heading>
       <Oscar>
@@ -44,8 +44,8 @@ function App() {
         console.log('Button Clicked....', event, id)
         alert('test' + id)
       }} />
-      <Input  value='' handleChange={event => console.log(event)} />
-      <Container style={{border:'1px solid black', padding: '1rem'}}/>
+      <Input value='' handleChange={event => console.log(event)} />
+      <Container style={{ border: '1px solid black', padding: '1rem' }} />
     </div>
   );
 }

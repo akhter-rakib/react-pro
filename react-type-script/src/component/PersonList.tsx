@@ -1,16 +1,14 @@
 import React from "react";
+import { Name } from "./CommonType";
 
 type nameListProps = {
-    nameList: {
-        firstName: string
-        lastName: string
-    }[]
+    names: Name[]
 }
 
 const PersonList = (props: nameListProps) => {
     return (
         <div>
-            {props.nameList.map(name => {
+            {props.names.map(name => {
                 return (
                     <h1>
                         Your First Name :  {name.firstName} and Your Last Name :  {name.lastName}
