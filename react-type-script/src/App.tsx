@@ -8,8 +8,8 @@ import PersonList from './component/props/PersonList';
 import LoggedIn from './component/state/LoggedIn';
 import User from './component/state/User';
 import Status from './component/props/Status';
-import Button from './component/Button';
-import Container from './component/Container';
+import Button from './component/props/event/Button';
+import Container from './component/props/Container';
 
 function App() {
   const personName = {
