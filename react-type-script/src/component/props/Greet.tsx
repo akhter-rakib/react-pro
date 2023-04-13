@@ -12,7 +12,7 @@ const Greet = (props: GreetProps) => {
     const { messageCount = 15 } = props
     return (
         <div>
-            {props.isLoggedIn ? <h1>`Hello {props.name}! You have {props.messageCount} Message!</h1>
+            {props.isLoggedIn ? <h1>`Hello {props.name}! You have {messageCount} Message!</h1>
              : 'Hello Guest!'}
         </div>
     )

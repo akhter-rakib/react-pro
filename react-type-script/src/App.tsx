@@ -1,10 +1,10 @@
 import './App.css';
-import Greet from './component/Greet';
+import Greet from './component/props/Greet';
 import Heading from './component/Heading';
 import Oscar from './component/Oscar';
-import Person from './component/Person';
-import PersonList from './component/PersonList';
-import Status from './component/Status';
+import Person from './component/props/Person';
+import PersonList from './component/props/PersonList';
+import Status from './component/props/Status';
 
 function App() {
   const personName = {
