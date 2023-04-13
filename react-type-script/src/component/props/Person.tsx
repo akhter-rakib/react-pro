@@ -1,5 +1,5 @@
 import React from "react";
-import { PersonProps } from "./CommonType";
+import { PersonProps } from "../CommonType";
 
 
 const Person = (props: PersonProps) => {

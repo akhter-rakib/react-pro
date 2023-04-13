@@ -1,5 +1,5 @@
 import React from "react";
-import { Name } from "./CommonType";
+import { Name } from "../CommonType";
 
 type nameListProps = {
     names: Name[]

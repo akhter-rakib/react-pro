@@ -3,6 +3,7 @@ import React from "react";
 type statusProps = {
     status: 'Success' | 'Loading' | 'Error'
 }
+
 const Status = (props: statusProps) => {
     let message;
     if (props.status == 'Success') {

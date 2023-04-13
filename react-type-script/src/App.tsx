@@ -1,13 +1,15 @@
 import './App.css';
-import Greet from './component/Greet';
+import Greet from './component/props/Greet';
 import Heading from './component/Heading';
 import Input from './component/Input';
 import Oscar from './component/Oscar';
-import Person from './component/Person';
-import PersonList from './component/PersonList';
+import Person from './component/props/Person';
+import PersonList from './component/props/PersonList';
 import LoggedIn from './component/state/LoggedIn';
 import User from './component/state/User';
-import Status from './component/Status';
+import Status from './component/props/Status';
+import Button from './component/Button';
+import Container from './component/Container';
 
 function App() {
   const personName = {
