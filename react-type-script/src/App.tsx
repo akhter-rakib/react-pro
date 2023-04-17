@@ -11,7 +11,7 @@ import Status from './component/props/Status';
 import Button from './component/props/event/Button';
 import Container from './component/props/Container';
 import UserTypeAssertionExmpl from './component/state/UserTypeAssertionExmpl';
-
+import Counter from './component/state/Counter';
 function App() {
   const personName = {
     firstName: 'Mohammad',
@@ -52,6 +52,7 @@ function App() {
       <LoggedIn/>
       <User/>
       <UserTypeAssertionExmpl/>
+      <Counter></Counter>
     </div>
   );
 }
